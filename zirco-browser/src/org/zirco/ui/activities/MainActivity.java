@@ -1444,7 +1444,7 @@ public class MainActivity extends Activity implements IToolbarsContainer, OnTouc
      */
     private void navigateToHome() {
     	navigateToUrl(Controller.getInstance().getPreferences().getString(Constants.PREFERENCES_GENERAL_HOME_PAGE,
-    			"www.sina.com.cn"));
+    			"http://dianpu.tao123.com/?tao123"));
     }
     
     /**
